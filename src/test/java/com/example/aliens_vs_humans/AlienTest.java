@@ -11,7 +11,6 @@ public class AlienTest {
     int defaultArmor = 50;
     Alien alien = new Alien(alienName, defaultHealth, defaultArmor);
 
-
     @Test
     public void testAlienCreation() {
         assertNotNull(alien);
@@ -27,7 +26,6 @@ public class AlienTest {
         takeDamage(damage);
         // armor can take all the damage
         assertEquals(defaultHealth, alien.getHealth()); // default health should not be damaged
-
     }
 
     @Test

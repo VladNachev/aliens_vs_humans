@@ -25,7 +25,6 @@ public class HumanTest {
         takeDamage(damage);
         // armor can take all the damage
         assertEquals(defaultHealth, human.getHealth()); // default health should not be damaged
-
     }
 
     @Test

@@ -10,6 +10,7 @@ public class EntityTest {
     String humanName = "John";
     int defaultHealth = 100;
     int defaultArmor = 70;
+
     @Test
     public void testEntityCreation() {
         Entity entity = new Alien(alienName, defaultHealth, defaultArmor); // Using Alien since Entity is abstract
