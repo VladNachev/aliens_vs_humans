@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class EntityTest {
-    String alienName = "Zorg";
-    String humanName = "John";
-    int defaultHealth = 100;
-    int defaultArmor = 70;
+    public String alienName = "Zorg";
+    public String humanName = "John";
+    public int defaultHealth = 100;
+    public int defaultArmor = 70;
 
     @Test
     public void testEntityCreation() {

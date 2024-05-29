@@ -6,9 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class AlienTest {
-    String alienName = "Zorg";
-    int defaultHealth = 100;
-    int defaultArmor = 50;
+    public String alienName = "Zorg";
+    public int defaultHealth = 100;
+    public int defaultArmor = 50;
     Alien alien = new Alien(alienName, defaultHealth, defaultArmor);
 
     @Test
